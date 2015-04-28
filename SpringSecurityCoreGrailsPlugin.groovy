@@ -557,7 +557,8 @@ to default to 'Annotation'; setting value to 'Annotation'
 				cacheName = 'userCache'
 			}
 			cacheManager(EhCacheManagerFactoryBean) {
-                shared = true
+                //shared = true
+				cacheManagerName = 'springSecurityCoreCacheManager'
             }
 		}
 		else {
