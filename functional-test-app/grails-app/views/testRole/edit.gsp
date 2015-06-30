@@ -27,7 +27,7 @@
 			<g:form url="[resource:testRoleInstance, action:'update']" method="PUT" >
 				<g:hiddenField name="version" value="${testRoleInstance?.version}" />
 				<fieldset class="form">
-					<g:render template="form"/>
+					<gx:render template="form"/>
 				</fieldset>
 				<fieldset class="buttons">
 					<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />

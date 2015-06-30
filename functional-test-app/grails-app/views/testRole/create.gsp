@@ -25,7 +25,7 @@
 			</g:hasErrors>
 			<g:form url="[resource:testRoleInstance, action:'save']" >
 				<fieldset class="form">
-					<g:render template="form"/>
+					<gx:render template="form"/>
 				</fieldset>
 				<fieldset class="buttons">
 					<g:submitButton name="create" class="save" value="${message(code: 'default.button.create.label', default: 'Create')}" />
