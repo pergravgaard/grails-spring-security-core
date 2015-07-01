@@ -27,7 +27,7 @@
 			<g:form url="[resource:testRequestmapInstance, action:'update']" method="PUT" >
 				<g:hiddenField name="version" value="${testRequestmapInstance?.version}" />
 				<fieldset class="form">
-					<gx:render template="form"/>
+					<g:render template="form"/>
 				</fieldset>
 				<fieldset class="buttons">
 					<g:actionSubmit class="save" action="update" value="${message(code: 'default.button.update.label', default: 'Update')}" />
